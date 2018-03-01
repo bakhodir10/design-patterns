@@ -2,7 +2,7 @@ package observer;
 
 public class Newspaper implements Observer {
     private Weather wh;
-    private String weather = "Warm";
+    private String weather;
 
     public Newspaper(Weather wh) {
         this.wh = wh;
@@ -11,6 +11,6 @@ public class Newspaper implements Observer {
     @Override
     public void update() {
         this.weather = wh.getWeather();
-        System.out.printf("The weather %s has been accepted by Newspaper\n", this.weather);
+        System.out.printf("The %s weather type has been accepted by Newspaper\n", this.weather);
     }
 }
