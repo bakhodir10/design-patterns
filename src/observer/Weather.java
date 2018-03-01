@@ -23,7 +23,7 @@ public class Weather implements Subject {
     }
 
     @Override
-    public void inform() {
+    public void notifyObservers() {
         observers.forEach(Observer::update);
     }
 

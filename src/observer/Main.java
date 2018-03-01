@@ -11,12 +11,12 @@ public class Main {
         weather.registerObserver(tv);
 
         weather.setWeather("cloud");
-        weather.inform();
+        weather.notifyObservers();
 
         weather.unRegisterObserver(newspaper);
         weather.unRegisterObserver(tv);
 
         weather.setWeather("shiny");
-        weather.inform();
+        weather.notifyObservers();
     }
 }

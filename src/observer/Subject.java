@@ -5,5 +5,5 @@ public interface Subject {
 
     void unRegisterObserver(Observer observer);
 
-    void inform();
+    void notifyObservers();
 }
