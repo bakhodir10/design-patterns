@@ -9,8 +9,14 @@ public class Main {
 
         weather.registerObserver(newspaper);
         weather.registerObserver(tv);
-        weather.setWeather("Cloud");
+
+        weather.setWeather("cloud");
         weather.inform();
 
+        weather.unRegisterObserver(newspaper);
+        weather.unRegisterObserver(tv);
+
+        weather.setWeather("shiny");
+        weather.inform();
     }
 }
