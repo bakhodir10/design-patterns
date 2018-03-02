@@ -1,5 +1,11 @@
 package strategy.customer;
 
+/*
+    The strategy pattern:
+        - defines a family of algorithms,
+        - encapsulates each algorithm, and
+        - makes the algorithms interchangeable within that family.
+*/
 public class Main {
     public static void main(String[] args) {
         Customer firstCustomer = new Customer(new NormalHourStrategy());

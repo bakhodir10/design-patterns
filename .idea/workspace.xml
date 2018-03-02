@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc021700-3059-4815-a155-c63cb32b94cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/customer/BillingStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/customer/Customer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/customer/HappyHourStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/customer/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/customer/NormalHourStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/sorting/BubbleSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/sorting/Context.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/sorting/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/sorting/QuickSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strategy/sorting/Sorting.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/customer/Main.java" afterPath="$PROJECT_DIR$/src/strategy/customer/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/sorting/Main.java" afterPath="$PROJECT_DIR$/src/strategy/sorting/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,58 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/BubbleSort.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sorting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Sorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/customer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/sorting/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -129,11 +84,12 @@
         <option value="$PROJECT_DIR$/src/strategy/Sorting.java" />
         <option value="$PROJECT_DIR$/src/strategy/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/strategy/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/strategy/sorting/Main.java" />
         <option value="$PROJECT_DIR$/src/strategy/customer/NormalHourStrategy.java" />
         <option value="$PROJECT_DIR$/src/strategy/sorting/Context.java" />
         <option value="$PROJECT_DIR$/src/strategy/sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/strategy/sorting/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/strategy/sorting/Main.java" />
+        <option value="$PROJECT_DIR$/src/strategy/customer/Main.java" />
       </list>
     </option>
   </component>
@@ -192,7 +148,7 @@
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +316,7 @@
       <workItem from="1519879795129" duration="8189000" />
       <workItem from="1519920678053" duration="1232000" />
       <workItem from="1519933615955" duration="2030000" />
-      <workItem from="1519973259244" duration="2213000" />
+      <workItem from="1519973259244" duration="2505000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern has been added">
       <created>1519881171121</created>
@@ -404,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519888944909</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="strategy pattern has been added">
+      <created>1519975493055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519975493055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13664000" />
+    <option name="totallyTimeSpent" value="13956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="24" width="1309" height="744" extended-state="6" />
@@ -483,7 +446,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Observer pattern has been added" />
     <MESSAGE value="Simple factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple factory pattern" />
+    <MESSAGE value="strategy pattern has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy pattern has been added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/customer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/customer/NormalHourStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -751,14 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/sorting/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -767,10 +715,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -783,18 +746,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/customer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/sorting/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
