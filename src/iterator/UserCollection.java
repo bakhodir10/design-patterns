@@ -15,7 +15,7 @@ public class UserCollection implements AbstractCollection<User> {
     }
 
     @Override
-    public AbstractIterator<User> getReverseIntIterator() {
+    public AbstractIterator<User> getUserRevIterator() {
         return new UserRevIterator(this.list);
     }
 }
