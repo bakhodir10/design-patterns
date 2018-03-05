@@ -13,10 +13,10 @@ public class Main {
         users.add(user2);
         users.add(user3);
 
-        AbstractCollection<User> userCollection = new UserCollection(users);
+        UserCollection userCollection = new UserCollection(users);
 
-        AbstractIterator<User> simpleIterator = userCollection.getUserRevIterator();
-        AbstractIterator<User> reverseIterator = userCollection.getUserRevIterator();
+        UserIterator<User> simpleIterator = userCollection.getUserSimplyIterator();
+        UserIterator<User> reverseIterator = userCollection.getUserRevIterator();
 
         while (simpleIterator.hasNext()) {
             User u = simpleIterator.next();

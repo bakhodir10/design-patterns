@@ -2,7 +2,7 @@ package iterator;
 
 import java.util.List;
 
-public class UserSimplyIterator implements AbstractIterator<User> {
+public class UserSimplyIterator implements UserIterator<User> {
     private List<User> list;
     private int pos = 0;
 

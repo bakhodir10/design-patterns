@@ -1,6 +1,6 @@
 package iterator;
 
-public interface AbstractIterator<E> {
+public interface UserIterator<E> {
     boolean hasNext();
 
     E next();
