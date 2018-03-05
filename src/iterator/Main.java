@@ -15,8 +15,8 @@ public class Main {
 
         UserCollection uc = new UserCollection(users);
 
-        Iterator<User> si = uc.getUserSimplyIterator();
-        Iterator<User> ri = uc.getUserRevIterator();
+        IIterator<User> si = uc.getUserSimplyIterator();
+        IIterator<User> ri = uc.getUserRevIterator();
 
         while (si.hasNext()) {
             User u = si.next();

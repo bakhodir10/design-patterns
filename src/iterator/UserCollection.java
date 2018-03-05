@@ -9,11 +9,11 @@ public class UserCollection {
         this.list = list;
     }
 
-    public Iterator<User> getUserSimplyIterator() {
-        return new UserSimpIterator(this.list);
+    public IIterator<User> getUserSimplyIterator() {
+        return new UserSimpIIterator(this.list);
     }
 
-    public Iterator<User> getUserRevIterator() {
-        return new UserRevIterator(this.list);
+    public IIterator<User> getUserRevIterator() {
+        return new UserRevIIterator(this.list);
     }
 }

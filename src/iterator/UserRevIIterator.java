@@ -2,11 +2,11 @@ package iterator;
 
 import java.util.List;
 
-public class UserRevIterator implements Iterator<User> {
+public class UserRevIIterator implements IIterator<User> {
     private List<User> list;
     private int pos;
 
-    public UserRevIterator(List<User> list) {
+    public UserRevIIterator(List<User> list) {
         this.list = list;
         this.pos = this.list.size() - 1;
     }
