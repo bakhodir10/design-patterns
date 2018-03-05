@@ -13,20 +13,20 @@ public class Main {
         users.add(user2);
         users.add(user3);
 
-        UserCollection userCollection = new UserCollection(users);
+        UserCollection uc = new UserCollection(users);
 
-        UserIterator<User> simpleIterator = userCollection.getUserSimplyIterator();
-        UserIterator<User> reverseIterator = userCollection.getUserRevIterator();
+        Iterator<User> si = uc.getUserSimplyIterator();
+        Iterator<User> ri = uc.getUserRevIterator();
 
-        while (simpleIterator.hasNext()) {
-            User u = simpleIterator.next();
+        while (si.hasNext()) {
+            User u = si.next();
             System.out.println(u.getName());
         }
 
         System.out.println("***********************");
 
-        while (reverseIterator.hasNext()) {
-            User u = reverseIterator.next();
+        while (ri.hasNext()) {
+            User u = ri.next();
             System.out.println(u.getName());
         }
     }

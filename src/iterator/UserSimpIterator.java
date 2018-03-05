@@ -2,11 +2,11 @@ package iterator;
 
 import java.util.List;
 
-public class UserSimplyIterator implements UserIterator<User> {
+public class UserSimpIterator implements Iterator<User> {
     private List<User> list;
     private int pos = 0;
 
-    public UserSimplyIterator(List<User> list) {
+    public UserSimpIterator(List<User> list) {
         this.list = list;
     }
 

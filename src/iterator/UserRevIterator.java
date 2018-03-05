@@ -2,7 +2,7 @@ package iterator;
 
 import java.util.List;
 
-public class UserRevIterator implements UserIterator<User> {
+public class UserRevIterator implements Iterator<User> {
     private List<User> list;
     private int pos;
 
