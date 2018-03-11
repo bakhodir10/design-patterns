@@ -8,6 +8,9 @@ public class Context {
     }
 
     public State getState() {
+        int a = 0;
+        if(state != null)  System.out.println(a);
+        
         return state;
     }
 
