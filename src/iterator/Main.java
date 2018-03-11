@@ -1,19 +1,17 @@
 package iterator;
 
-import java.util.LinkedList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         User user1 = new User("Messi");
         User user2 = new User("Pique");
         User user3 = new User("Coutinho");
-        List<User> users = new LinkedList<>();
-        users.add(user1);
-        users.add(user2);
-        users.add(user3);
+        List<User> users = Arrays.asList(user1, user2, user3);
 
-        UserCollection uc = new UserCollection(users);
+        IUserAggregate uc = new UserAggregate(users);
 
         IIterator<User> si = uc.getUserSimplyIterator();
         IIterator<User> ri = uc.getUserRevIterator();
@@ -29,5 +27,7 @@ public class Main {
             User u = ri.next();
             System.out.println(u.getName());
         }
+
+        System.out.println("**************************");
     }
 }
