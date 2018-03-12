@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc021700-3059-4815-a155-c63cb32b94cb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/ProxyDemo.java" afterPath="$PROJECT_DIR$/src/proxy/ProxyDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/Thing.java" afterPath="$PROJECT_DIR$/src/proxy/Thing.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/ThingLogging.java" afterPath="$PROJECT_DIR$/src/proxy/ThingLogging.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/aThing.java" afterPath="$PROJECT_DIR$/src/proxy/aThing.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/bThing.java" afterPath="$PROJECT_DIR$/src/proxy/bThing.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +30,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colleague.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Colleague.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mediator/Colleague.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="92" lean-forward="false" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/state/StartState.java" />
         <option value="$PROJECT_DIR$/src/state/StopState.java" />
         <option value="$PROJECT_DIR$/src/state/StatePatternDemo.java" />
         <option value="$PROJECT_DIR$/src/facade/Rectangle.java" />
@@ -189,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/proxy/ProxyDemo.java" />
         <option value="$PROJECT_DIR$/src/proxy/Thing.java" />
         <option value="$PROJECT_DIR$/src/proxy/ThingLogging.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -234,12 +243,6 @@
               <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,7 +464,7 @@
       <workItem from="1520740267417" duration="272000" />
       <workItem from="1520740621884" duration="2575000" />
       <workItem from="1520743211343" duration="15491000" />
-      <workItem from="1520820490220" duration="3395000" />
+      <workItem from="1520820490220" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern has been added">
       <created>1519881171121</created>
@@ -603,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520859404551</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="some changes">
+      <created>1520860836391</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1520860836391</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70357000" />
+    <option name="totallyTimeSpent" value="70782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="24" width="1309" height="744" extended-state="6" />
@@ -688,9 +698,9 @@
     <MESSAGE value="command pattern" />
     <MESSAGE value="proxy pattern" />
     <MESSAGE value="template method pattern" />
-    <MESSAGE value="some changes" />
     <MESSAGE value="mediator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="mediator pattern" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,7 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/template/Document.java" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_151/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
@@ -1062,6 +1071,17 @@
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="92" lean-forward="false" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
