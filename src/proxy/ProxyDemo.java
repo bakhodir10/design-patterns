@@ -2,6 +2,7 @@ package proxy;
 
 
 public class ProxyDemo {
+
     public static void main(String[] args) {
         Thing A = new aThing("A");
 

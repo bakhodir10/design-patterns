@@ -1,6 +1,7 @@
 package proxy;
 
 public class ThingLogging implements Thing, Logging {
+
     private Thing thing;
 
     public ThingLogging(Thing thing) {

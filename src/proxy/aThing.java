@@ -1,6 +1,7 @@
 package proxy;
 
 public class aThing implements Thing {
+
     private String name;
 
     public aThing(String name) {
