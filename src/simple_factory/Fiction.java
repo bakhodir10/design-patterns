@@ -1,4 +1,4 @@
-package factory.simple;
+package simple_factory;
 
 public class Fiction implements IBook {
     private String name;

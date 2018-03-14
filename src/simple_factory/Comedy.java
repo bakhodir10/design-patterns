@@ -1,4 +1,4 @@
-package factory.simple;
+package simple_factory;
 
 public class Comedy implements IBook {
     private String name;

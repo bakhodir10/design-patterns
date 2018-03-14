@@ -1,4 +1,4 @@
-package factory.simple;
+package simple_factory;
 
 public enum BookType {
     Tragedy,

@@ -1,4 +1,4 @@
-package factory.simple;
+package simple_factory;
 
 public class BookFactory {
     public static IBook createBook(BookType type, String name) {
