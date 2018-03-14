@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc021700-3059-4815-a155-c63cb32b94cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/AbstractFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/Acer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/Computer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/ComputerFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/ComputerType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/ConcreteFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/FactoryPatternLab.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/FactoryType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhone.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhoneFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhoneType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/MacBook.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/Philips.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/Sony.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/factory/abstract_functor/Wilkins.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/AbstractFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/Acer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/Computer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/ComputerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/ComputerType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/ConcreteFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/FactoryPatternLab.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/FactoryType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhone.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhoneFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhoneType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/MacBook.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/Philips.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/Sony.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/factory/abstract_functor/Wilkins.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +29,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Acer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/Acer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,12 +120,12 @@
         <option value="$PROJECT_DIR$/src/proxy/ProxyDemo.java" />
         <option value="$PROJECT_DIR$/src/proxy/Thing.java" />
         <option value="$PROJECT_DIR$/src/proxy/ThingLogging.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/factory/simple/BookFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/simple/Main.java" />
         <option value="$PROJECT_DIR$/src/factory/abstract_functor/Small.java" />
         <option value="$PROJECT_DIR$/src/factory/abstract_functor/ConcreteFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/abstract_functor/HeadPhone.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -156,7 +181,7 @@
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract_functor" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract_factory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +411,7 @@
       <workItem from="1520969504598" duration="688000" />
       <workItem from="1520983481264" duration="48000" />
       <workItem from="1521001606961" duration="1328000" />
-      <workItem from="1521040954544" duration="24000" />
+      <workItem from="1521040954544" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern has been added">
       <created>1519881171121</created>
@@ -542,14 +567,22 @@
       <option name="project" value="LOCAL" />
       <updated>1520861259476</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="abstract factory">
+      <created>1521041020510</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1521041020510</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74248000" />
+    <option name="totallyTimeSpent" value="74576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="24" width="1309" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,7 +597,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33021808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -629,7 +662,8 @@
     <MESSAGE value="mediator pattern" />
     <MESSAGE value="some changes" />
     <MESSAGE value="added Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Readme.md" />
+    <MESSAGE value="abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,16 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mediator/Colleague.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -874,73 +898,94 @@
     <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Big.java" />
     <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/HeadPhoneType.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/HeadPhoneType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Acer.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/Wilkins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Wilkins.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/MacBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/MacBook.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/Philips.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Philips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/HeadPhone.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/HeadPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/Computer.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/ConcreteFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/ConcreteFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstract_functor/FactoryPatternLab.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/FactoryPatternLab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/abstract_factory/Acer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
