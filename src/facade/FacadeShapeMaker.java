@@ -1,11 +1,12 @@
 package facade;
 
-public class Facade {
+public class FacadeShapeMaker {
+
     private Circle circle;
     private Square square;
     private Rectangle rectangle;
 
-    public Facade() {
+    public FacadeShapeMaker() {
         this.circle = new Circle();
         this.square = new Square();
         this.rectangle = new Rectangle();
