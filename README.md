@@ -10,4 +10,5 @@
 *   [Mediator Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/mediator)
 *   [Proxy Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/proxy)
 *   [Strategy Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/strategy)
-*   [Template Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/template)  
+*   [Template Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/template)
+*   [Visitor Pattern](https://github.com/bakhodir10/design-pattern/tree/master/src/visitor) 
