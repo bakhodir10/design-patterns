@@ -5,5 +5,5 @@ public interface Subject {
 
     void unRegisterObserver(Observer observer);
 
-    void notifyObservers();
+    void notifyObservers(String newWeather);
 }

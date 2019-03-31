@@ -23,15 +23,12 @@ public class Weather implements Subject {
     }
 
     @Override
-    public void notifyObservers() {
-        observers.forEach(Observer::update);
+    public void notifyObservers(String newWeather) {
+        observers.forEach(observer -> observer.update(newWeather));
     }
 
-    public String getWeather() {
-        return weather;
-    }
-
-    public void setWeather(String weather) {
-        this.weather = weather;
+    public void setWeather(String newWeather) {
+        this.weather = newWeather;
+        notifyObservers(newWeather);
     }
 }

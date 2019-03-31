@@ -1,22 +1,18 @@
 package observer;
 
 public class Main {
+
     public static void main(String[] args) {
         Weather weather = new Weather();
 
-        Newspaper newspaper = new Newspaper(weather);
+        Phone phone = new Phone(weather);
         TV tv = new TV(weather);
 
-        weather.registerObserver(newspaper);
-        weather.registerObserver(tv);
-
         weather.setWeather("cloud");
-        weather.notifyObservers();
 
-        weather.unRegisterObserver(newspaper);
+        weather.unRegisterObserver(phone);
         weather.unRegisterObserver(tv);
 
         weather.setWeather("shiny");
-        weather.notifyObservers();
     }
 }
