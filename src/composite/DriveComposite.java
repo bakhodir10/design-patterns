@@ -8,6 +8,6 @@ public class DriveComposite extends FileSystemComposite {
 
     @Override
     public void print() {
-        this.componentList.forEach(System.out::println);
+        this.componentList.forEach(e -> System.out.println(e.name));
     }
 }
