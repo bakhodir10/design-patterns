@@ -1,8 +1,8 @@
 package composite;
 
-public class DriveComposite extends FileSystemComposite {
+public class DirectoryComposite extends FileSystemComposite {
 
-    public DriveComposite(String name) {
+    public DirectoryComposite(String name) {
         super(name);
     }
 

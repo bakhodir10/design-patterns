@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc021700-3059-4815-a155-c63cb32b94cb" name="Default" comment="Observer pattern issue has been fixed">
-      <change afterPath="$PROJECT_DIR$/src/composite/DrirectoryComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composite/DriveComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composite/FileLeafComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composite/FileSystemComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composite/FileSystemComposite.java" afterDir="false" />
+    <list default="true" id="dc021700-3059-4815-a155-c63cb32b94cb" name="Default" comment="Composite pattern added example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Developer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/composite/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/DrirectoryComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/composite/DirectoryComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/DriveComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/composite/DriveComposite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/composite/FileSystemComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -52,17 +46,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/composite/FileSystemComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="212">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,28 +74,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/composite/DriveComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/DrirectoryComposite.java">
+        <entry file="file://$PROJECT_DIR$/src/composite/DirectoryComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,12 +104,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/composite/FileLeafComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
               </folding>
             </state>
@@ -130,11 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/facade/FacadePatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/facade/Circle.java" />
-        <option value="$PROJECT_DIR$/src/facade/Shape.java" />
-        <option value="$PROJECT_DIR$/src/strategy/customer/Customer.java" />
-        <option value="$PROJECT_DIR$/src/composite/Employee.java" />
         <option value="$PROJECT_DIR$/src/composite/Manager.java" />
         <option value="$PROJECT_DIR$/src/composite/Main.java" />
         <option value="$PROJECT_DIR$/src/visitor/ComputerPart.java" />
@@ -181,6 +178,11 @@
         <option value="$PROJECT_DIR$/src/composite/v2/DriveComposite.java" />
         <option value="$PROJECT_DIR$/src/composite/v2/FileLeafComponent.java" />
         <option value="$PROJECT_DIR$/src/composite/FileLeafComponent.java" />
+        <option value="$PROJECT_DIR$/src/composite/FileSystemComposite.java" />
+        <option value="$PROJECT_DIR$/src/composite/DrirectoryComposite.java" />
+        <option value="$PROJECT_DIR$/src/composite/DirectoryComposite.java" />
+        <option value="$PROJECT_DIR$/src/composite/DriveComposite.java" />
+        <option value="$PROJECT_DIR$/src/composite/Application.java" />
       </list>
     </option>
   </component>
@@ -259,13 +261,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="command.Application" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.Application" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,9 +364,11 @@
       <item itemvalue="Application.MediatorDemo" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MediatorDemo" />
@@ -403,7 +420,7 @@
       <workItem from="1521153960917" duration="9068000" />
       <workItem from="1552862554836" duration="6973000" />
       <workItem from="1554065583840" duration="4391000" />
-      <workItem from="1554266730497" duration="1657000" />
+      <workItem from="1554266730497" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern has been added">
       <created>1519881171121</created>
@@ -629,17 +646,31 @@
       <option name="project" value="LOCAL" />
       <updated>1554068406210</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Composite pattern added example">
+      <created>1554268425348</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1554268425349</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Composite pattern added example">
+      <created>1554271834454</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1554271834454</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99662000" />
+    <option name="totallyTimeSpent" value="101046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1313" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20882584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20882584" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -648,7 +679,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2524272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2524272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,7 +687,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33021808" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32686085" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32695374" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -725,20 +756,10 @@
     <MESSAGE value="visitor pattern" />
     <MESSAGE value="command pattern has been changed" />
     <MESSAGE value="Observer pattern issue has been fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern issue has been fixed" />
+    <MESSAGE value="Composite pattern added example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite pattern added example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/visitor/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/visitor/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1042,67 +1063,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/DrirectoryComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/DriveComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/FileLeafComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/composite/FileSystemComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="212">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/DirectoryComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/composite/FileSystemComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/FileLeafComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/DriveComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>

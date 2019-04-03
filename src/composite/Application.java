@@ -4,9 +4,9 @@ public class Application {
 
     public static void main(String[] args) {
         DriveComposite cDrive = new DriveComposite("C");
-        DrirectoryComposite appDir = new DrirectoryComposite("application");
-        DrirectoryComposite dataDir = new DrirectoryComposite("my data");
-        DrirectoryComposite courseDir = new DrirectoryComposite("cs525");
+        DirectoryComposite appDir = new DirectoryComposite("application");
+        DirectoryComposite dataDir = new DirectoryComposite("my data");
+        DirectoryComposite courseDir = new DirectoryComposite("cs525");
 
         FileLeafComponent excelFile = new FileLeafComponent("excel file");
         FileLeafComponent wordFile = new FileLeafComponent("my word file");
@@ -19,7 +19,7 @@ public class Application {
         appDir.addComponent(wordFile);
         courseDir.addComponent(studentFile);
 
-        cDrive.print();
+        appDir.print();
     }
 
 }
